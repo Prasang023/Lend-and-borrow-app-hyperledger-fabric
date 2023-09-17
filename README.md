@@ -24,11 +24,13 @@ Add the three folders, `client`, `backend` and `fabric_network` inside the `fabr
 Move to `fabric_samples` directory.
 
 Run following commands:
-```cd ./fabric_network/chaincode/contract/javascript```
-```npm install```
-```cd ../../../sdk/javascript```
-```npm install```
-```cd ..```
+```
+cd ./fabric_network/chaincode/contract/javascript
+npm install
+cd ../../../sdk/javascript
+npm install
+cd ..
+```
 
 To start the Fabric Network:
 ```./startFabric.sh javascript```
