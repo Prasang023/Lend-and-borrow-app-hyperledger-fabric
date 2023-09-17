@@ -5,12 +5,16 @@
 ### Step 1: Install Fabric and Fabric Samples
 
 To get the install script:
-```curl -sSLO https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh && chmod +x install-fabric.sh```
+```
+curl -sSLO https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh && chmod +x install-fabric.sh
+```
 
 To pull the Docker containers and clone the samples repo, run one of these commands for example:
-```./install-fabric.sh --fabric-version 2.5.0 docker samples binary```
+```
+./install-fabric.sh --fabric-version 2.5.0 docker samples binary
+```
 
-If facing any issues, refer to official documentation at: 
+If facing any issues, refer to official documentation at:\
 `https://hyperledger-fabric.readthedocs.io/en/latest/install.html`
 
 ### Step 2: Seting up project:
@@ -33,24 +37,30 @@ cd ..
 ```
 
 To start the Fabric Network:
-```./startFabric.sh javascript```
+```
+./startFabric.sh javascript
+```
 
 ### Step 4: Start Backend Server:
 
 Move to `fabric_samples` directory.
 
 Run following commands:
-```cd ./backend```
-```npm install```
-```nodemon server.js```
+```
+cd ./backend
+npm install
+nodemon server.js
+```
 
 ### Step 5: Start Frontend:
 
 Move to `fabric_samples` directory.
 
 Run following commands:
-```cd ./frontend```
-```npm install```
-```npm start```
+```
+cd ./frontend
+npm install
+npm start
+```
 
 ### Now you are good to go.
